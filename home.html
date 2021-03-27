@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BTS</title>
+        <link rel="stylesheet" href="assets/style/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    </head>
+    
+<body>
+    
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#bts">Profile</a>
+            <a href="#member">Member</a>
+            <div class="dropdown">
+              <button class="dropbtn">Music
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#music">Discography</a>
+                <a href="#listMixtape" onclick="mixtapeFunction()">Mixtape</a>
+                <a href="#music">Soundcloud</a>
+              </div>
+            </div> 
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" style="font-size:15px; color: white" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </header>
+
+<!-- page content -->
+<main>
+  <div class="pg-content" style="max-width:2000px;margin-top:46px">
+
+      <!-- Automatic Slideshow Images -->
+      <div class="mySlides  pg-center">
+        <img src="assets/image/rsz_2img_20190112_185752.jpg" style="width:100%">
+      </div>  
+      <div class="mySlides  pg-center">
+        <img src="assets/image/rsz_2img_20190217_180034.jpg" style="width:100%">
+      </div>   
+  </div>
+      
+  <div id="pg-container" class="pg-content pg-center" style="max-width:2000px">
+<!--The BTS Section-->
+      <article id="bts" class="card">
+          <h2>BTS</h2>
+          <p class="pg-justify">BTS, akronim dari Bangtan Sonyeondan atau  <b>"Beyond the Scene"</b>, adalah boyband Korea Selatan yang telah menangkap hati jutaan penggemar secara global sejak debut mereka pada 13 Juni 2013. Anggota BTS adalah RM, Jin, SUGA, J-Hope, Jimin, V dan Jung Kook. BTS mendapatkan pengakuan dari musik mereka yang otentik, yang diproduksi sendiri dengan penampilan terbaik dan cara mereka berinteraksi dengan penggemar mereka, band ini telah mengukuhkankan diri mereka sebagai superstar global yang memecahkan banyak rekor dunia. Selain BTS memberikan pengaruh positif melalui kegiatan seperti kampanye LOVE MYSELF dan pidato 'Speak Yourself' UN PBB, BTS telah memobilisasi jutaan penggemar di seluruh dunia (bernama ARMY), memuncaki tangga lagu musik terkemuka, menjual tur di seluruh dunia termasuk stadion dan telah terjual habis. dinamai sebagai salah satu dari TIME 100: The Most Influential People of 2019. Band ini juga telah diakui dengan berbagai penghargaan bergengsi seperti Billboard Music Awards dan American Music Awards.</p>
+       </article>
+
+      <article id="member" class="pg-row card">
+          <h2>MEMBER</h2>
+          <div class="member">
+            <h4>RM a.k.a KIM NAMJOON</h4>
+            <p>Leader and Main Rapper</p>
+            <img src="assets/image/member-rm.jpg" class="pg-margin-bottom featured-img">
+          </div>
+          <div class="member">
+            <h4>JIN a.k.a KIM SEOKJIN</h4>
+            <p>Main Vocal</p>
+            <img src="assets/image/member-jin.jpg" class="pg-margin-bottom featured-img">
+          </div>
+          <div class="member">
+            <h4>SUGA a.k.a MIN YOONGI</h4>
+            <p>Lead Rapper</p>
+            <img src="assets/image/member-suga.jpg" class="pg-margin-bottom featured-img">
+          </div>
+          <div class="member">
+            <h4>J-HOPE a.k.a JUNG HOSEOK</h4>
+            <p>Lead Dancer and Main Rapper</p>
+            <img src="assets/image/member-jhope.jpg" class="pg-margin-bottom featured-img">
+          </div>
+          <div class="member">
+            <h4>JIMIN a.k.a PARK JIMIN</h4>
+            <p>Main Dancer and Main Vocal</p>
+            <img src="assets/image/member-jimin.jpg" class="pg-margin-bottom featured-img">
+          </div>
+          <div class="member">
+            <h4>V a.k.a KIM TAEHYUNG</h4>
+            <p>Main Vocal</p>
+            <img src="assets/image/member-v.jpg" class="pg-margin-bottom featured-img">
+          </div>
+          <div class="member">
+            <h4>JUNGKOOK a.k.a JEON JUNGKOOK</h4>
+            <p>Lead Vocal and Main Dancer</p>
+            <img src="assets/image/member-jk.jpg" class="pg-margin-bottom featured-img">
+          </div>
+        </article>
+  
+<!-- The Music Section -->
+      <article id="music" class="pg-row card">
+            <h2>MUSIC</h2>
+            <p><i>Music for Healing!</i></p><br>
+                <div class="music" id="mixtape">
+                 <p><b>Discography</b></p>
+                  <img src="assets/image/map7.jpg" alt="Discography" class="pg-margin-bottom" style="width:70%">
+                  <div class="pg-white">
+                    <button class="pg-margin-bottom".style.display='block'"> <a href="https://ibighit.com/bts/eng/discography/" target="_blank">See More</a></button>
+                  </div>
+              </div>
+              <div class="music" id="mixtape">
+                <p><b>Mixtape</b></p>
+                <img src="assets/image/Agust_D_Cover.jpg" alt="Mixtape" class="pg-margin-bottom" style="width:70%">
+                <div class="pg-white">
+                  <button class="pg-button pg-black pg-margin-bottom" onclick="document.getElementById('listMixtape').style.display='block'">See More</button>
+                </div>
+              </div>
+              <div class="music" id="soundcloud">
+                <p><b>SoundCloud</b></p>
+                <img src="assets/image/soundcloud.jpg" alt="SoundCloud" class="pg-margin-bottom" style="width:70%">
+                <div class="pg-white">
+                  <button class="pg-margin-bottom" .style.display='block'"><a href="https://soundcloud.com/bangtan" target="_blank"> See More</a></button>
+                </div>
+              </div> 
+        </article>
+  
+<article>
+  <div id="listMixtape" class="pg-center card"> 
+    <table> 
+      <caption><h2>BTS MIXTAPE</h2></caption>
+      <thead>
+        <tr>
+          <th>album</th>
+          <th>lagu</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="assets/image/RM_Cover.jpg" style="width:50%; padding: 10px">
+          <figcaption><a href="https://soundcloud.com/bangtan/sets/rm-mono-2018" target="_blank"> RM </a></figcaption>
+          </td>
+          <td>
+            <ol>
+            <li>목소리</li>
+            <li>Do You</li>
+            <li>Monster</li>
+            <li>버려</li>
+            <li>농담</li>
+            <li>God Rap</li>
+            <li>RUSH (Feat. Krizz Kaliko)</li>
+            <li>Life</li>
+            <li>표류</li>
+            <li>I Believe</li>
+            <ol>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="assets/image/Agust_D_Cover.jpg" style="width:50%; padding: 10px">
+          <figcaption><a href="https://soundcloud.com/bangtan/sets/agust-d" target="_blank"> AGUSTD </a></figcaption>
+        </td>
+          <td>
+            <ol>
+              <li>INTRO : Dt sugA (feat. DJ Friz)</li>
+              <li>Agust D</li>
+              <li>Give It To Me</li>
+              <li>Skit</li>
+              <li>724148</li>
+              <li>140503 at Dawn</li>
+              <li>The Last</li>
+              <li>Tony Montana (feat. Jimin)</li>
+              <li>INTERLUDE : Dream, Reality</li>
+              <li>So Far Away (feat. SURAN)</li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="assets/image/Mono_Cover.jpg" style="width:50%; padding: 10px">
+          <figcaption><a href="https://soundcloud.com/bangtan/sets/rm-mono-2018" target="_blank"> MONO </a></figcaption>
+        </td>
+          <td>
+            <ol>
+              <li>Tokyo</li>
+              <li>SEOUL (Prod HONNE)</li>
+              <li>Moonchild</li>
+              <li>Bad Bye (with eAeon)</li>
+              <li>Different / dislocated (out of the way)</li>
+              <li>Pass by (with NELL)</li>
+              <li>The Last</li>
+              <li>Forever rain</li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="assets/image/Hope_World_Cover.jpg" style="width:50%; padding: 10px">
+          <figcaption><a href="https://soundcloud.com/bangtan/sets/j-hope-hope-world" target="_blank"> HOPE WORLD </a></figcaption>
+          </td>
+          <td>
+            <ol>
+              <li>Hope World</li>
+              <li>P.O.P (Piece Of Peace) pt.1</li>
+              <li>Daydream</li>
+              <li>Base Line</li>
+              <li>HANGSANG (Feat. Supreme Boi)</li>
+              <li>Airplane</li>
+              <li>OUTRO : Blue Side</li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="assets/image/agustd2.jpg" style="width:50%; padding: 10px">
+          <figcaption><a href="https://soundcloud.com/bangtan/sets/d-2" target="_blank"> AGUSTD D2 </a></figcaption>
+          </td>
+          <td>
+            <ol>
+              <li>Moonlight (저 달)</li>
+              <li>Daechwita (대취타)</li>
+              <li>What do you think? (어떻게 생각해?)</li>
+              <li>Strange (feat. RM)</li>
+              <li>28 (feat. NiiHWA)</li>
+              <li>Burn It (feat. MAX)</li>
+              <li>People (사람)</li>
+              <li>Honsool (혼술)</li>
+              <li>Interlude：Set me free</li>
+              <li>Dear my friend (feat. Kim Jong Wan of NELL)</li>
+            </ol>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ </div>
+</article>
+
+
+<!-- The Contact Section -->
+        <article id="contact" class="card">
+              <h2>CONTACT</h2>
+  
+                     <li><a href="http://bts.ibighit.com/" target="_blank">BTS Official Website</a></li>
+                     <li><a href="http://twitter.com/BTS_bighit" target="_blank">BTS Official Twitter</a></li>
+                     <li><a href="http://www.facebook.com/bangtan.official" target="_blank">BTS Official Facebook</a></li>
+                     <li><a href="http://instagram.com/BTS.bighitofficial" target="_blank">BTS Official Instagram</a></li>
+                     <li><a href="https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ" target="_blank">BangtanTV Youtube Channel</a></li>
+                     <li><a href="http://twitter.com/BTS_twt" target="_blank">BTS Twitter</a></li>
+                
+          </article>
+<!--end container-------------------------------------------------------------- -->
+  </div>
+
+  <aside>
+         <article class="profile card">
+          <header>
+              <h2>Profile</h2>
+                 <figure>
+                     <img src="assets/image/rsz_1img20171112101155.jpg" style="border-radius: 20%">
+                </figure>
+          </header>
+           <section>
+               <table style="text-align: left">
+                  <tr>
+                     <th>Nama</th>
+                     <td>Rima Siti Nurrohmah</td>
+                  </tr>
+                  <tr>
+                     <th>Lahir</th>
+                     <td>21 Februari 1995</td>
+                  </tr>
+                  <tr>
+                     <th>E-mail</th>
+                     <td>rimasitinurrohma33@gmail.com</td>
+                  </tr>
+              </table>
+          </section>
+         </article>
+    </aside>
+</main>
+
+<footer>
+    <p style="color: white">Belajar Pemprograman Dasar Web</p>  
+</footer>
+<script src="assets/style/style.js"></script>
+</body>
+</html>
